@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Shadow Profile Eraser</h1>
+      <div class="status" id="status">
+        <span class="dot active"></span>
+        <span>Active</span>
+      </div>
+    </header>
+
+    <div class="persona-section">
+      <h2>Privacy Persona</h2>
+      <select id="personaSelect" class="persona-select">
+        <option value="random">Random (Default)</option>
+        <option value="mobile">Mobile Device</option>
+        <option value="laptop">Old Laptop</option>
+        <option value="privacy">Privacy Browser</option>
+        <option value="desktop">Standard Desktop</option>
+      </select>
+    </div>
+
+    <div class="stats-section">
+      <h2>Current Session</h2>
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="stat-value" id="fingerprintAttempts">0</div>
+          <div class="stat-label">Fingerprint Attempts</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="sitesVisited">0</div>
+          <div class="stat-label">Sites Visited</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="techniques-section">
+      <h2>Detected Techniques</h2>
+      <div class="technique-list" id="techniqueList">
+        <div class="technique-item">
+          <span>Canvas</span>
+          <span class="count" id="canvasCount">0</span>
+        </div>
+        <div class="technique-item">
+          <span>WebGL</span>
+          <span class="count" id="webglCount">0</span>
+        </div>
+        <div class="technique-item">
+          <span>Audio</span>
+          <span class="count" id="audioCount">0</span>
+        </div>
+        <div class="technique-item">
+          <span>Font Detection</span>
+          <span class="count" id="fontCount">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="current-site" id="currentSite">
+      <h3>Current Site Profile</h3>
+      <div class="profile-info" id="profileInfo">Visit a website to see data</div>
+    </div>
+
+    <div class="controls">
+      <button id="resetStats" class="btn-secondary">Reset Stats</button>
+      <button id="toggleProtection" class="btn-primary">Disable Protection</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
