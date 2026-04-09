@@ -1,8 +1,8 @@
-# Masklet 🕶️
+# Cloaklet 🕶️
 
 **Dynamic browser fingerprint protection with privacy personas**
 
-Masklet is a Chrome extension that helps protect your online identity by detecting and disrupting browser fingerprinting techniques. Instead of simply blocking trackers, Masklet subtly alters the signals websites use to identify you, making your browser harder to track across the web.
+Cloaklet is a Chrome extension that helps protect your online identity by detecting and disrupting browser fingerprinting techniques. Instead of simply blocking trackers, Cloaklet subtly alters the signals websites use to identify you, making your browser harder to track across the web.
 
 ---
 
@@ -10,7 +10,7 @@ Masklet is a Chrome extension that helps protect your online identity by detecti
 
 ### 🧬 Fingerprint Mutation
 
-Masklet modifies fingerprinting surfaces such as:
+Cloaklet modifies fingerprinting surfaces such as:
 
 * Canvas
 * WebGL
@@ -23,7 +23,7 @@ Each website sees a slightly different, consistent version of your browser profi
 
 ### 🕵️ Tracking Detection
 
-Masklet monitors pages for fingerprinting behavior and alerts you when:
+Cloaklet monitors pages for fingerprinting behavior and alerts you when:
 
 * Advanced fingerprinting techniques are detected
 * Multiple tracking methods are used together
@@ -55,7 +55,7 @@ Each persona creates a consistent identity per site while remaining different ac
 
 ### ⚙️ Smart Noise Injection (Optional)
 
-Masklet can introduce subtle variations in:
+Cloaklet can introduce subtle variations in:
 
 * Timing patterns
 * Interaction signals
@@ -78,7 +78,7 @@ This helps reduce the reliability of behavioral tracking.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/masklet.git
+   git clone https://github.com/mresmith14/Cloaklet.git
    ```
 
 2. Open Chrome and go to:
